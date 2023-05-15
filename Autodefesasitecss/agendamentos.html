@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>AUTODEFESA</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Leandro Gomes" />
+	<meta name="keywords" content="luta, auto, AUTODEFESA, defesa pessoal, muaythai, aula, perigo, atividades fisicas, jiujitsu" />
+	<meta name="description" content="Aulas de defesa pessoal, dicas" />
+     <link rel="stylesheet" type="text/css" href="stylecss.css">
+</head>
+<body >
+    <header>
+    <img src="img/banner.jpg" alt="banner descrito defesa pessoal" />
+    </header>
+    <nav>   
+     <a class="a-menu" href="index.html">HOME</a>
+     <a class="a-menu" href="index.html#pag-conteudo">CONTEÚDO</a>
+     <a class="a-menu" href="index.html#pag-modalidades">MODALIDADES</a>
+     <a class="a-menu" href="index.html#pag-videos">VIDEOS</a>
+     <a class="a-menu" href="#">AULAS</a>
+    </nav>   
+ 
+     <section id="pag-agendamento">
+     <h1>AGENDAMENTOS</h1>
+ 
+ 
+      <p >
+     	Agende uma aula experimental Grátis!
+        </p>
+        <form name="" method="" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome_completo" 
+            placeholder="Digite seu nome completo" required   /><br/>
+
+           <label for="email">E-mail:</label>
+           <input id="email" type="email" name="email" placeholder="nomeusuario@exemplo.com" />
+           <label for="senha">Senha:</label>
+            <input id="senha" type="password" name="senha"  placeholder="Somente números" />
+
+
+             <label for="celular">Celular:</label>
+             <input id="celular"  type="tel" name="celular"   placeholder="(00)00000-0000" 
+             pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$"/>
+
+        <div id="data-hora-num">
+             <div>
+             <label for="data">Data:</label>
+             <input id="data" type="date" name="data"/>
+             </div>
+             <div>
+             <label for="hora">Hora:</label>
+             <input id="hora" type="time" name="hora"/>
+             </div>
+             <div>
+             <label for="aulas">Aulas:</label>
+             <input id="aulas" type="number" name="aula" min="1" max="10" step="1"/>
+             </div>
+         </div>
+
+             <label for="nivel">Nível:</label>
+             <select id="nivel" name="nivel">
+                <option value="">Selecione</option>
+                 <option value="iniciante">Iniciante</option>
+                 <option value="basico">Básico</option>
+                 <option value="intermediario">Intermediário</option>
+                 <option value="avancado">Avançado</option>
+             </select>
+
+        <fieldset>
+            <legend>Gênero:</legend>
+
+             <input id="masc" type="radio" name="genero" value="masc" /><label for="masc">Masculino</label><br/>
+             <input  id="fem" type="radio" name="genero" value="fem" /><label for="fem">Feminino</label>
+         </fieldset>
+            
+            <fieldset>
+                <legend>Atividades:</legend>
+                <input id="jiu" type="checkbox" name="atividade" value="jiujitsu"> <label for="jiu">Jiu-Jitsu</label><br/>
+                <input id="tae" type="checkbox" name="atividade" value="taekwondo"> <label for="tae">Taekwondo</label><br/>
+                <input id="mua" type="checkbox" name="atividade" value="muaythai"> <label for="yoga">Muay Thai</label><br/>
+                <input id="krav" type="checkbox" name="atividade" value="kravMaga"> <label for="corr">Krav Maga</label>
+            </fieldset>
+
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" cols="54" rows="4">
+                
+            </textarea>
+
+            <div id="botoes-form">
+            <input type="submit" name="bnt-agendar" value="AGENDAR" />
+             <input type="reset" name="btn-cancelar" value="CANCELAR" /> 
+            </div>
+
+  </form>
+
+         </section>
+      
+      <footer>
+ 
+      <p >Desenvolvido por <a href="http://instagram.com" target="blank"> Leandro  Gomes </a> - 2021 </p>
+
+      </footer>
+
+
+
+     
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+
+
+*{margin: 0;}
+
+
+body{
+	background-color: rgb(255.255.255);
+}
+
+nav{
+	
+	background-color: #FE9A2E;
+	text-align: right;
+	padding: 10px;
+	
+}
+a{
+	font: 20px 'Roboto',sans-serif;
+	
+	text-decoration: none;
+
+}
+.a-menu{
+	margin-right: 30px;
+	font-weight: bold;
+}
+
+.a-menu:link, .a-menu:visited{
+	color: #FFF
+}
+
+.a-menu:hover,.a-menu:active{
+	color: #AC58FA;
+
+}
+header, img{
+    width: 100%;
+	height: 380px;
+}
+article{
+	width: 100%;	
+	padding: 15px;
+	box-sizing:border-box;
+	background-color: #F6E3CE;
+
+}
+h1{
+	font: 2rem 'Roboto';	 
+	color: #FF4500;	
+	margin-bottom: 20px;
+}
+p{
+	font: 20px 'Lato',sans-serif;
+	color: #000000;
+	text-align: justify;
+	line-height: 30px;
+}
+#subtext{		 
+	color: #FF4500;	
+	margin: 10px;
+
+}
+#cita {
+	text-align: right;
+	margin: 10px;
+	font-style: italic;
+}
+section{
+     padding: 20px;
+
+}
+h2{
+	font: 2rem 'Roboto', cursive;	 
+	color: #FF4500;	
+	margin-bottom: 10px;
+
+}
+h3{
+	font-size: 10px 'Lato, sans-serif';
+	text-align: center;
+	padding: 10px;
+	
+}
+#pag-produtos{
+	background-color:#ECE0F8;
+	
+}
+#container{
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 20px; 
+}
+
+.card{
+
+	background-color:;
+	margin: 10px;
+	width: 25%;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px #F8E0F1;
+	transition: 0.5s;	
+}
+.card:hover{
+	box-shadow: 0 8px 16px orange;
+}
+.card-content{
+	padding: 10px;
+}
+.card-content p{
+	font: 1rem 'Lato',sans-serif;
+	line-height: 20px;
+
+}
+#pag-encomendas{
+	background-color: ;
+
+}
+#pag-encomendas p{
+	text-align: ;
+	margin-bottom: 20px;
+
+}
+
+form{
+	width: 400px;
+	margin: 0 auto;
+	
+
+}
+input, select, textarea{
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	box-sizing: border-box;
+	border: 1px solid #C4C4C4;	
+	color: #777;
+}
+
+label, fieldset, input, select, textarea{
+	font: 1rm 'Lato',sans-serif;
+
+}
+fieldset{
+	border: 1px solid #CCC;
+	margin-bottom: 10px;
+	
+}
+
+input[type="radio"],[type= "checkbok"]{
+	width: 15px;
+	height: 15px;
+	margin: 15px;
+}
+textarea{
+	height: 80px;
+}
+#botoes-form{
+	display: flex;
+}
+input[type="submit"], input[type="reset"]{
+	margin: 20px;
+	background-color: #FF8000;
+	color: #FFF;
+	border: 0;
+	border-radius: 5px;
+}
+input[type="reset"]{
+	background-color: #BE81F7;
+}
+footer{
+	background-color: #FE9A2E;
+	padding: 10px;
+	
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+}
+footer a{
+	color: #FFF;
+}
+footer a:hover{
+	color: #AC58FA;
+}
+<h2>Sachês de Café Expresso</h2>
+
+        <ol>
+          <li>Dolce Gusto (Caixa 16 capsulas);</li>
+        </ol>
+         <ul>
+             <li>Expresso 96g - R$ 24,00</li>
+             <li>Descafeinado 96g - R$ 21,00</li>
+         </ul>
+         <ol>
+          <li>Senseo (18 sachês);</li>
+        </ol>
+         <ul>
+             <li>Clássico 120g - R$ 14,00</li>
+             <li>Intenso 120g - R$ 14,00</li>
+         </ul>
+         <ol>
+          <li>Nespresso (20 capsulas);</li>
+        </ol>
+         <ul>
+             <li>Livanto - R$ 35,00</li>
+             <li>Ristretto - R$ 42,00</li>
+             <li>Vanilio - R$ 46,00</li>
+         </ul>
